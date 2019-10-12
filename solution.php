@@ -1,11 +1,11 @@
 <?php
 //difining the input fluactuating currency ranges
 //x is the usd to rtgs rate 
-(3.7<=$x<=4)?$x=$X:"wrong rate";
+(3.7 <= $x <= 4)?$x = $X:"wrong rate";
 //y is the usd to bond  rate 
-(3.2<=$y<=3.4)?$y=$Y:"wrong rate";
+(3.2 <= $y <= 3.4)?$y = $Y:"wrong rate";
 //z is the bond to rtgs rate 
-(1.1<=$z<=1.2)?$z=$Z:"wrong rate";
+(1.1<= $z <=1.2)?$z = $Z:"wrong rate";
 
 // number of edges
 $ E = 9;
